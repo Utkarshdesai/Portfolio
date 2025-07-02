@@ -1,13 +1,18 @@
+import Navbar from './components/Navbar.jsx'
+import './index.css'
+import Footer from './sections/Footer.jsx'
+import Hero from './sections/Hero.jsx'
 
-
-import './App.css'
 
 function App() {
 
 
   return (
     <>
-    <p className='text-3xl'> welcome </p>
+     
+   
+     <Hero/>    
+      
     </>
   )
 }
